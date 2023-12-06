@@ -1,0 +1,11 @@
+<zk>
+	<hlayout>
+		<button iconSclass="z-icon-house " />
+		<button iconSclass="z-icon-house z-icon-solid" />
+		<button iconSclass="z-icon-lemon" />
+		<button iconSclass="z-icon-code-compare z-icon-solid" />
+		<button iconSclass="z-icon-paint-roller z-icon-solid" />
+		<button iconSclass="z-icon-java z-icon-brands" />
+		<button iconSclass="z-icon-github z-icon-brands" />
+	</hlayout>
+</zk>

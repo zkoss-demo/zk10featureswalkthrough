@@ -1,0 +1,7 @@
+<zk>
+	<hlayout sclass="footer">
+		<label value="this calculator is a sample demonstrating "/>
+		<a href="${arg.targetUrl}">ZK 10 Stateless components</a>
+		<label value=" Thanks for reading"/>
+	</hlayout>
+</zk>

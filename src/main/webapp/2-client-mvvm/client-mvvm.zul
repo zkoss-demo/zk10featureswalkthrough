@@ -1,0 +1,20 @@
+<zk>
+	<hlayout apply="org.zkoss.clientbind.ClientBindComposer" viewModel="@id('vm')@init('org.zkoss.support.zk10featureswalkthrough.clientmvvm.SampleViewModel')"  >
+		<button onClick="@command('toServer')" label="to server"/>
+		<vlayout>
+			<textbox value="@bind(vm.stringValue)" />
+			<label value="@load(vm.stringValue)" />
+		</vlayout>
+		<vlayout>
+			<listbox model="@load(vm.model)" selectedItem="@bind(vm.selectedItem)">
+				<template name="model">
+					<listitem label='@load(each)'></listitem>
+				</template>
+			</listbox>
+			<radiogroup model="@load(vm.model)" selectedItem="@bind(vm.selectedItem)">
+				
+			</radiogroup>
+			<label value="@load(vm.selectedItem)" />
+		</vlayout>
+	</hlayout>
+</zk>

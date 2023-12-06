@@ -1,0 +1,7 @@
+<?script src="./zk-override.js"?>
+<zk xmlns:w="client">
+	<div>
+		<textbox id="tb"/>
+		<button label="locate first character" w:onClick="jq.alert('first character of the input is: ' + zk.$('$tb').getFirstCharacter())"/>
+	</div>
+</zk>

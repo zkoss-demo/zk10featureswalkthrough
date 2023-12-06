@@ -1,0 +1,9 @@
+<zk>
+	<div  viewModel="@id('vm')@init('org.zkoss.test.SearchboxVM')" apply="org.zkoss.clientbind.ClientBindComposer">
+	    <searchbox model="@init(vm.model)" multiple="true" autoclose="true">
+	        <template name="model">
+	            <label value="@load(each)"/>
+	        </template>
+	    </searchbox>
+	</div>
+</zk>

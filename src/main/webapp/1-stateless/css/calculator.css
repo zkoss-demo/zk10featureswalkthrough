@@ -1,0 +1,22 @@
+.input-field{
+	border: 1px black solid;
+	margin: 5px;
+	border-radius: 5px;
+}
+
+.input-field-label{
+	font-weight: bold;
+}
+
+.input-field-real{
+	color: royalblue;
+}
+
+.footer{
+	width: 100%;
+	color: #555555;	
+}
+
+.footer a, .footer a:visited, .footer a:active, .footer a:focus {
+	color: #333333;	
+}

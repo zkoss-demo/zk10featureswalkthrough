@@ -1,5 +1,8 @@
 <zk>
 	<div  viewModel="@id('vm')@init('org.zkoss.test.SearchboxVM')" apply="org.zkoss.clientbind.ClientBindComposer">
+	    <toolbar>
+	        <toolbarbutton label="Left" />
+	    </toolbar>
 	    <searchbox model="@init(vm.model)" multiple="true" autoclose="true">
 	        <template name="model">
 	            <label value="@load(each)"/>
